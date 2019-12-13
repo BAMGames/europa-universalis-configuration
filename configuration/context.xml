@@ -38,9 +38,9 @@
 			  auth="Container" 
 			  type="javax.sql.DataSource"
 			  driverClassName="com.mysql.jdbc.Driver"
-              username="${env.MYSQL_USER}" 
-			  password="${env.MYSQL_PASSWORD}" 
-              url="jdbc:mysql://${env.MYSQL_SERVICE_HOST}:${env.MYSQL_SERVICE_PORT}/${env.MYSQL_DATABASE}"
+              username="${MYSQL_USER}" 
+			  password="${MYSQL_PASSWORD}" 
+              url="jdbc:mysql://${MYSQL_SERVICE_HOST}:${MYSQL_SERVICE_PORT}/${MYSQL_DATABASE}"
               maxActive="100" 
 			  maxIdle="30" 
 			  maxWait="10000"/>

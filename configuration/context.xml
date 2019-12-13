@@ -40,7 +40,7 @@
 			  driverClassName="com.mysql.jdbc.Driver"
               username="${env.MYSQL_USER}" 
 			  password="${env.MYSQL_PASSWORD}" 
-              url="jdbc:mysql://${env.DATABASE_SERVICE_HOST}:${env.DATABASE_SERVICE_PORT}/${env.MYSQL_DATABASE}"
+              url="jdbc:mysql://${env.MYSQL_SERVICE_HOST}:${env.MYSQL_SERVICE_PORT}/${env.MYSQL_DATABASE}"
               maxActive="100" 
 			  maxIdle="30" 
 			  maxWait="10000"/>
